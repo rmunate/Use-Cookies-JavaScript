@@ -44,6 +44,7 @@ function deleteCookie(nombre){
 ```
 
 ## Ejecutar Codigo Si Existe Una Cookie
+```sh
 // La propiedad [.exist] retorna true si existe o false en caso de no existir la cookie. 
 if (getCookie("nombreCookie").exist) {
     // Si la cookie existe, podemos extraer su valor a traves de la propiedad [.value]
